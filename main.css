@@ -1,0 +1,72 @@
+body{
+  background-color: white;
+}
+
+nav ul{
+  list-style: none;   /* 移除項目符號 */
+  display: inline-block;
+  background-color: rgb(230, 230, 230);
+  margin: 0px 5px;
+  padding: 5px;
+}
+
+nav li{
+  float:left;
+  margin:5px 30px;
+}
+
+nav a{
+  color: inherit; /* 移除超連結顏色 */
+  text-decoration: none;  /* 移除超連結底線 */
+  display: block; /* 讓 <a> 填滿 <li> */
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+nav p{
+  display: block; /* 讓 <a> 填滿 <li> */
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+nav li:hover {
+  background-color: rgb(115, 115, 115);
+  color: white;
+}
+
+#header{
+  text-align:center;
+  width:1500px;
+  height:110px;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  background-color: rgb(130, 150, 100);
+  margin: 10px 550px;
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  background-color: lightgray;
+  margin: 20px 100px;
+  border:3px gray solid;
+}
+
+form{
+    text-align: left;
+    margin: 0px auto;
+    display: table;
+}
+
+#chess{
+	margin: auto;
+	display: block;
+	box-shadow: 5px 5px 5px #808080,-2px -2px 2px #D5D5D5;
+	cursor: pointer;
+	background-color: #DEB887;
+	padding: 5px;
+}
