@@ -9,3 +9,5 @@
 開啟 CMD 輸入 cd C:\xampp\htdocs\test 再輸入 php server.php start
 
 最後開啟網頁即完成
+
+https://youtu.be/OSHPUvudR_k
